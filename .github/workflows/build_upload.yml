@@ -42,7 +42,7 @@ jobs:
           tags: infoiplitin/clinic-config:${{env.ARTIFACT_VERSION}},infoiplitin/clinic-config:latest
       - name: Pull Bahmni Default Config Helm Chart
         run: |
-          helm pull default-config --repo https://iplit.github.io/helm-charts --devel --untar --untardir package/helm
+          helm pull default-config --repo https://bahmni.github.io/helm-charts --devel --untar --untardir package/helm
           mv package/helm/default-config/ package/helm/clinic-config/
       - name: Update Chart values
         run: |

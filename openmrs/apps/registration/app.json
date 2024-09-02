@@ -9,7 +9,7 @@
         "showMiddleName": true,
         "showLastName": true,
         "defaultVisitType":"OPD",
-        "isLastNameMandatory": true,
+        "isLastNameMandatory": false,
         "patientNameDisplayOrder": ["firstName", "middleName", "lastName"],
         "showSaveConfirmDialog": false,
         "showBirthTime": false,

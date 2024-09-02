@@ -5,7 +5,7 @@
     "config" : {
         "mandatoryPersonAttributes" : [],
         "patientInformation": {},
-        "defaultIdentifierPrefix": "ABC",
+        "defaultIdentifierPrefix": "GAN",
         "showMiddleName": true,
         "showLastName": true,
         "defaultVisitType":"OPD",

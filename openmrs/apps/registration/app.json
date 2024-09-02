@@ -8,7 +8,7 @@
         "defaultIdentifierPrefix": "GAN",
         "showMiddleName": true,
         "showLastName": true,
-        "defaultVisitType":"OPD",
+        "defaultVisitType":"IPD",
         "isLastNameMandatory": false,
         "patientNameDisplayOrder": ["firstName", "middleName", "lastName"],
         "showSaveConfirmDialog": false,
